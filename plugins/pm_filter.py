@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('⭕️ Join Our Channel ⭕️', url='https://t.me/MovieClubOfficiall')
+        InlineKeyboardButton('⭕️ Join Our Channel ⭕️', url='https://t.me/MovieClub_TG')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
